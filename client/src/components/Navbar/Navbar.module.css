@@ -1,0 +1,20 @@
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dddddd;
+  }
+  
+.li {
+    float: left;
+  }
+.textoboton{
+   
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    display: block;
+    padding: 8px;
+    
+  }

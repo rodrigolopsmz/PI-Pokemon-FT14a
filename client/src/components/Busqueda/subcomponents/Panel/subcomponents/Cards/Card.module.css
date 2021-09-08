@@ -1,0 +1,36 @@
+.div {
+    margin:2.5%;
+    width:50%;
+    height: 120px;
+   border: 1px solid rgb(109, 84, 84);
+   border-radius: 2.8%;
+   background-color: rgba(0, 255, 85, 0.205);
+   position: relative;
+}
+.name{
+    font-size: 30px;
+    margin-left: 5%;
+    margin-bottom: 0%;
+    float: left;
+}
+.types{
+    font-size: 12px;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    position:absolute;
+}
+
+.img{
+    bottom: 1px;
+  
+    right: 5px;
+    position:absolute;
+}
+
+.link{
+   
+    text-decoration: none;
+    color: black;
+        
+  }

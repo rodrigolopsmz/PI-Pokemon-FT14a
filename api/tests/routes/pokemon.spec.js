@@ -6,7 +6,7 @@ const { Pokemon, conn } = require('../../src/db.js');
 
 const agent = session(app);
 const pokemon = {
-  name: 'Pikachu',
+  name: 'Artan',
 };
 
 describe('Pokemon routes', () => {
@@ -18,7 +18,33 @@ describe('Pokemon routes', () => {
     .then(() => Pokemon.create(pokemon)));
   describe('GET /pokemons', () => {
     it('should get 200', () =>
-      agent.get('/pokemons').expect(200)
+      agent.get('/pokemons/1').expect(200)
+      
+    );
+
+    it('should get 200', () =>
+      agent.get('/pokemons/P1').expect(200)
+      
+    );
+    it('should get 400', () =>
+      agent.get('/pokemons/P10').expect(400)
+      
+    );
+    it('should get 400', () =>
+      agent.get('/pokemons/12020220202').expect(400)
+      
+    );
+    it('should get 200', () =>
+      agent.get('/pokemons/artan').expect(400)
+      
+    );
+    it('should get 200', () =>
+      agent.get('/pokemons/pikachu').expect(200)
+      
+    );
+    it('should get 400', () =>
+      agent.get('/pokemons/librostractorestrenes').expect(400)
+      
     );
   });
 });

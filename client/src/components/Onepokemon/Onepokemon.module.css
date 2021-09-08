@@ -1,0 +1,27 @@
+.div1 {
+    margin:0.5%;
+    margin-bottom: 2%;
+    padding: 20px;
+    padding-top: 0px;
+    width:300px;
+    height: 55px;
+   border: 1px solid rgb(109, 84, 84);
+}
+
+.divimg {
+  margin:0.5%;
+  margin-bottom: 2%;
+  width:300px;
+  height: 120px;
+ border: 1px solid rgb(109, 84, 84);
+}
+.sizediv{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+  }

@@ -1,0 +1,38 @@
+.sizediv{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+  }
+
+  .div1 {
+    height: 25%;
+    margin-top: 1%;
+  }
+  
+  .boton {
+    
+    margin-top: 15%;
+    margin-bottom: 18%;
+    width: 15%;
+    background-color: red; /* Green */
+  border: none;
+  border-radius: 12%;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  
+  }
+
+  .textoboton{
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    padding: 5%;
+  }
+  
+  .title{
+    height: 100%;
+  }

@@ -1,0 +1,28 @@
+.form {
+    display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  }
+  .ord {
+    float:left;
+    overflow: hidden;
+    
+  }
+
+  .flexcontainer {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: transparent;
+  }
+  .div {
+    margin:0.5%;
+    margin-left: 1.5%;
+    
+    width:30%;
+    height: 30px;
+   border: 1px solid rgb(109, 84, 84);
+}
+.label{
+  float:left;
+  margin-left: 2%;
+}

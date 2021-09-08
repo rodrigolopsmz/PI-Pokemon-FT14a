@@ -1,0 +1,49 @@
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    
+   
+  }
+
+  .lichildren{
+    
+    display: none;
+     
+     
+ }
+ .liall{
+    width: 100%;
+    margin-left: 60%;
+    
+ }
+
+
+ .ul1 {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 1%;
+    margin-left: 3%;
+    
+    float: left;
+    
+  }
+  
+  .li1 {
+    
+    
+    background-color: rgb(137, 43, 226);
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 7%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  
+    
+    
+  }
+
+  

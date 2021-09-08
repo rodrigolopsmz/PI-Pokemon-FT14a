@@ -1,0 +1,19 @@
+
+ .button{
+    text-decoration: none;
+    color: black;
+    font-size: 90px;
+    background-color: transparent;
+    cursor: pointer;
+    border-color: transparent;
+    width: 15%;
+ }
+ .button:hover{
+  background-color: rgba(80, 80, 206, 0.815);
+ }
+
+ .flexcontainer {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: transparent;
+}

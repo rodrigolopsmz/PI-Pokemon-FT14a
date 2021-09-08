@@ -1,0 +1,25 @@
+.button{
+    text-decoration: none;
+    color: black;
+    font-size: 120%;
+    background-color: transparent;
+    cursor: pointer;
+    border-color:grey;
+    border-width: 0.1%;
+    float:right;
+ }
+
+ .label{
+    float:left;
+    margin-left: 2%;
+ }
+
+ .div {
+     margin:0.5%;
+     width:20%;
+     height: 30px;
+    border: 1px solid rgb(109, 84, 84);
+ }
+
+
+  

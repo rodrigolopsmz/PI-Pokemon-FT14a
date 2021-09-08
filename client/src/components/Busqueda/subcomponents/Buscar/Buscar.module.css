@@ -1,0 +1,10 @@
+.form {
+    display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  }
+  .ord {
+    float:left;
+    overflow: hidden;
+    
+  }
